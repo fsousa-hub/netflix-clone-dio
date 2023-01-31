@@ -1,0 +1,12 @@
+/* VARIAVEL ROOT*/
+:root{
+    --vermelho:#E50914;
+    --preta:#141414;
+}
+
+/*BODY - ELEMTOS BASE */
+body{
+    background: var(--preta);
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+}
