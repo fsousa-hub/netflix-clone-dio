@@ -60,7 +60,7 @@ header nav a:hover{
     align-items: flex-start;
 }
 
-/* FILME PRINCIPAL - DESCRIÇÃO */
+/* FILME PRINCIPAL - DESCRICAO */
 .filme-principal .descricao{
     margin-top: 10px;
     margin-bottom: 40px;
@@ -68,8 +68,8 @@ header nav a:hover{
 
 /* FILME PRINCIPAL - TITULO */
 .filme-principal .titulo{
-    margin-top: 15%;
-    font-size: 40px;
+    margin-top: 10%;
+    font-size: 30px;
     font-family: 'Trebuchet MS', Arial, sans-serif;
 }
 
@@ -87,13 +87,13 @@ header nav a:hover{
     transition: .3s ease all;
 }
 
-/* BOTÃO - HOVER */
+/* BOTAO - HOVER */
 .botao:hover{
     background-color: white;
     color: black;
 } 
 
-/* BOTÃO - I */
+/* BOTAO - I */
 .botao i{
     margin-right: 8px;
 }
@@ -105,7 +105,7 @@ header nav a:hover{
 
 /* FILME PRINCIPAL - CONTAINER */
 .filme-principal .container{
-    width: 70%;
+    width: 80%;
 }
 
 /* BOX - FILME */
