@@ -103,3 +103,20 @@ header nav a:hover{
     margin-left: 20px;
 }
 
+/* FILME PRINCIPAL - CONTAINER */
+.filme-principal .container{
+    width: 70%;
+}
+
+/* BOX - FILME */
+.box-filme{
+    height: 100%;
+    width: 100%;
+    display: block;
+    cursor: pointer;
+}
+
+/* CARROSEL - FILMES  */
+.carrosel-filmes{
+    margin-top: 5px;
+}

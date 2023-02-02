@@ -2,10 +2,13 @@
 <html lang="pt-br">
 <head>
     <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
     <link rel="stylesheet" href="style/main.css">
+
+    <!-- OWL CSS -->
+    <link rel="stylesheet" href="style/owl/owl.carousel.min.css">
+    <link rel="stylesheet" href="style/owl/owl.theme.default.min.css">
+
     <title>NETFLIX CLONE</title>
 </head>
 <body>
@@ -23,7 +26,8 @@
         </div>
     </header>
 
-    <!-- FILME PRINCIPAL -->
+    <main>
+            <!-- FILME PRINCIPAL -->
     <div class="filme-principal">
         <div class="container">
             <!-- TITULO -->
@@ -40,10 +44,53 @@
                 </button>
             </div>
         </div>
+   </div>
+   </main>
+
+    <!-- CARROSEL - FILMES -->
+    <div class="carrosel-filmes">
+        <!-- OWL-CARROSEL  OWL-THEME -->
+       <div class="owl-carousel owl-theme">
+            <div class="item">
+                <img src="img/mini1.jpg" alt="" class="box-filme" srcset="">
+            </div>
+            <div class="item">
+                <img src="img/mini2.jpg" alt="" class="box-filme" srcset="">
+            </div>
+            <div class="item">
+                <img src="img/mini3.jpg" alt="" class="box-filme" srcset="">
+            </div>
+            <div class="item">
+                <img src="img/mini4.jpg" alt="" class="box-filme" srcset="">
+            </div>
+            <div class="item">
+                <img src="img/mini5.jpg" alt="" class="box-filme" srcset="">
+            </div>
+            <div class="item">
+                <img src="img/mini6.jpg" alt="" class="box-filme" srcset="">
+            </div>
+            <div class="item">
+                <img src="img/mini7.jpg" alt="" class="box-filme" srcset="">
+            </div>
+            <div class="item">
+                <img src="img/mini8.jpg" alt="" class="box-filme" srcset="">
+            </div>
+            <div class="item">
+                <img src="img/mini9.jpg" alt="" class="box-filme" srcset="">
+            </div>
+            <div class="item">
+                <img src="img/mini10.jpg" alt="" class="box-filme" srcset="">
+            </div>
+       </div>
 
     </div>
     
+    <!-- Font Awesome -->
     <script src="https://kit.fontawesome.com/2c36e9b7b1.js"></script>
+    <!-- jQuery | Owl Carousel -->
+    <script src="js/owl/jquery.min.js"></script>
+    <script src="js/owl/owl.carousel.min.js"></script>
+    <script src="js/owl/setup.js"></script>
 
 </body>
 </html>
